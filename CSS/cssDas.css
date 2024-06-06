@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1abc9c;
+    position: fixed;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #16a085;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.content h1 {
+   
+    color:#f8c7dd;
+    font-size: 36px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #333;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-excel-button {
+    background-color: #00bcd4; /* Color celeste */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alinear el texto al centro */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como elemento en línea */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Márgenes */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.custom-excel-button:hover {
+    background-color: #0097a7; /* Color celeste más oscuro al pasar el ratón */
+}
+/* Estilos para el botón Editar */
+.editar-btn {
+    background-color: yellow; /* Color amarillo */
+    color: black; /* Texto negro */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+/* Estilos para el botón Eliminar */
+.eliminar-btn {
+    background-color: red; /* Color rojo */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+.stats-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stats-icon {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.stats-icon img {
+    max-width: 100%;
+}
+
+.stats-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.stats-info p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
